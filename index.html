@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAYLASTIKCA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- menu kismi baslangic -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" href="#">
+          PAYLASTIKCA | Bilgi paylastikca cogalir...
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse d-flex justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExampleCaptions"
+              >
+                Ana Sayfa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hakkimizda">Hakkimizda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">Iletisim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- menu kismi bitis -->
+
+    <!-- slider baslangic -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/sl1.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/sl2.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/sl3.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- slider bitis -->
+
+    <!-- HAKKIMIZDA BASLANGIC -->
+
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+      <div class="container">
+        <h2 class="mb-5 font-weght-bold">Hakkimizda</h2>
+        <hr class="ayrac" />
+        <i class="fab fa-pagelines igri"></i>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+          dolores, fuga cumque inventore qui voluptatibus impedit reprehenderit!
+          Officiis temporibus nam mollitia explicabo, nostrum ea eius tempore
+          asperiores veritatis alias laudantium! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Tempora voluptas sapiente nostrum
+          laboriosam nemo eum velit et, odio praesentium magni! Magni nulla fuga
+          error minima sit corporis explicabo vitae illo.
+        </p>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+          consequuntur animi facere soluta suscipit quo deserunt accusantium,
+          officia eius iusto repellendus fugiat eos velit ratione aliquid. Illum
+          vel expedita sapiente? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Cum esse facilis quo architecto harum deleniti.
+          Eligendi nam vel aspernatur fugit reprehenderit numquam, autem dolorem
+          id repellendus minus est dignissimos labore.
+        </p>
+      </div>
+    </section>
+
+    <!-- HAKKIMIZDA BITIS -->
+
+    <!-- ekibimiz baslangic -->
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+      <div class="container">
+        <h2 class="mb-5 font-weght-bold">Ekibimiz</h2>
+        <hr class="ayrac" />
+        <i class="fab fa-pagelines ibeyaz"></i>
+        <div class="row row-cols-1 row-cols-md-4 g-5">
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="IMG/ekip1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ali CANGOZ</h5>
+                <p class="card-text">
+                  Genel Mudur
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="IMG/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Hayriye Gunebakan</h5>
+                <p class="card-text">IK Muduru</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="IMG/ekip3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Zeynep Bakkal</h5>
+                <p class="card-text">
+                  Muhasebe
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow ekipCard">
+              <img src="IMG/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Can Kan</h5>
+                <p class="card-text">
+                  Halkla iliskiler
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ekibimiz bitis -->
+
+    <!-- galeri baslangic -->
+    <section class="p-5 text-center galeri" id="galeri">
+      <div class="container">
+        <h2 class="mb-5 font-weght-bold">Galeri</h2>
+        <hr class="ayrac" />
+        <i class="fab fa-pagelines igri"></i>
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r1.jpg">
+                <img
+                  src="IMG/r1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r2.jpg">
+                <img
+                  src="IMG/r2.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r5.jpg">
+                <img
+                  src="IMG/r5.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r4.jpg">
+                <img
+                  src="IMG/r4.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r1.jpg">
+                <img
+                  src="IMG/r1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r2.jpg">
+                <img
+                  src="IMG/r2.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r5.jpg">
+                <img
+                  src="IMG/r5.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="IMG/r4.jpg">
+                <img
+                  src="IMG/r4.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- galeri bitis -->
+
+    <!-- iletisim baslangic -->
+    <section class="p-5 iletisim" id="iletisim">
+      <div class="container text-center">
+        <h2 class="mb-5 font-weght-bold">Iletisim</h2>
+        <hr class="ayrac" />
+        <i class="fab fa-pagelines ibeyaz"></i>
+      </div>
+      <div class="form text-left">
+        <div class="row g-3 align-items-center">
+          <div class="col-md-2">
+            <label for="inputad" class="col-form-label">AD:</label>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              id="inputad"
+              class="form-control"
+              aria-describedby="passwordHelpInline"
+            />
+          </div>
+        </div>
+        <div class="row g-3 align-items-center">
+          <div class="col-md-2">
+            <label for="inputsoyad" class="col-form-label mt-3">SOYAD:</label>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              id="inputsoyad"
+              class="form-control"
+              aria-describedby="passwordHelpInline"
+            />
+          </div>
+        </div>
+        <div class="row g-3 align-items-center">
+          <div class="col-md-2">
+            <label for="inputemail" class="col-form-label mt-3">EMAIL:</label>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="email"
+              id="inputemail"
+              class="form-control"
+              aria-describedby="passwordHelpInline"
+            />
+          </div>
+        </div>
+        <div class="row g-3 align-items-center">
+          <div class="col-md-2">
+            <label for="inputmesaj" class="col-form-label mt-3">
+              MESAJINIZ:
+            </label>
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control" id="textArea" rows="6"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-start">
+        <button class="btn btn-danger mt-2">Kaydet</button>
+      </div>
+    </section>
+
+    <!-- iletisim bitis -->
+    <!-- Footer baslangic -->
+    <div class="bg-primary text-light text-center">
+      <p class="align-middle p-3">
+        <span>Tum haklari saklidir &copy; | 2021</span>
+        <span>
+          Desing by
+          <b>KARADAG</b>
+        </span>
+      </p>
+    </div>
+    <!-- Footer bitis -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
